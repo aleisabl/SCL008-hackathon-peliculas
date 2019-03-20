@@ -58,4 +58,19 @@
         color:white;
         }
 
+        .card {
+            background: rgba(255, 255, 255, 0.342);
+        }
 
+
+        @media (max-width: 500px) {
+            .searchbar:hover > .search_input{
+              width: 280px ;
+            }
+          }
+
+          @media (max-width: 400px) {
+            .element.style {
+                width: 10rem;
+            }
+          }

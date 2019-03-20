@@ -26,7 +26,7 @@ const getData = () => {
                 <p class="card-text">${JSON.stringify(data.Genre)}|${JSON.stringify(data.Runtime)}|${JSON.stringify(data.Released)}</p>
                 <h5 class="card-title"></h5>
                 <p class="card-text">${JSON.stringify(data.Title)}</p>
-                <a href="#" class="btn btn-primary">Ver más</a>
+                <a href="#" class="btn btn-secondary">Ver más</a>
                 </div>
                 
                 `
