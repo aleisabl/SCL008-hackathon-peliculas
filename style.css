@@ -3,7 +3,9 @@
         width: 100%;
         margin: 0;
         padding: 0;
-        background: rgb(126, 23, 126);
+        background: url(img/fondo3.jpg);
+        background-position: center;
+        background-size: 100vh;
         font-family: Georgia, sans-serif;
         letter-spacing: 1.5px;
         }
@@ -11,7 +13,7 @@
         .title {
             color: white;
             text-align: center;
-            margin-top: 5cm;
+            margin-top: 3cm;
             font-weight: 800;
         }
     
@@ -41,7 +43,7 @@
         }
     
         .searchbar:hover > .search_icon{
-        background: #9352b3;
+        background: #000000;
         color: white;
         }
     
