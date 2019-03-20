@@ -18,8 +18,8 @@ const getData = () => {
 
                 `   
                 <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body" >
+                <img class="card-img-top" src="${JSON.stringify(data).Poster}" alt="poster">
+                <div class="card-body">
                 <h5 class="card-title"></h5>
                 <p class="card-text">${JSON.stringify(data)}</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
