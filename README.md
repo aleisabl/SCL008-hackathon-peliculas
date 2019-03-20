@@ -29,7 +29,7 @@ RESULTADOS DE LA ENCUESTA: [Encuesta](https://docs.google.com/forms/d/1O9Dz2TDck
 
  ## Gráficos de los Resultados
 
- ![Gráfico encuesta](./src/img/encuesta1.png "Grafico encuesta")
+ ![Gráfico encuesta](encuesta1.png "Grafico encuesta")
 
  * Este proyecto se debe resolver en equipos de hasta 4 personas.
 * Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
