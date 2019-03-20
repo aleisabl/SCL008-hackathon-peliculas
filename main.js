@@ -2,20 +2,6 @@ const url = "http://www.omdbapi.com/?i=tt3896198&apikey=6faa8fa5";
 const card = document.getElementById('card');
 
 const getData = () => {
-    console.log(url);
-    card.innerHTML +=
-        url.forEach(element => {
-            `<div class="col-sm-12 col-md-4 col-lg-3"><div class="card" id="drawcards">
-    <img src="${element.Poster}" class="card-img-top" alt="${element.Title}">
-    <div class="card-body">
-    <p class="card-text">${element.Title}</p>
-    <p class="card-text">${element.Actors}</p>
-        </div>
-        </div>
-        </div>
-    `
-
-        })
 
     fetch(url)
         .then(resp => {
