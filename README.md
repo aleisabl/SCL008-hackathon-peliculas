@@ -14,6 +14,7 @@
  ## Movieteca
 
 Movieteca es una aplicación Web que nace al querer satisfacer a un público que en éste caso tiene un gusto especial por el cine de terror. Va dirigido a usuarios que gusta del análisis de los filmes antes de elegir de qué película disfrutar. Este sitio web les permitirá buscar de manera ordenada las películas por categoría, ver una pequeña reseña, trailer, premios, entre otros.
+
  ![Pelis](https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif)
 
  ## Encuestas

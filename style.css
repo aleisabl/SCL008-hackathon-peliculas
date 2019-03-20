@@ -3,26 +3,34 @@
         width: 100%;
         margin: 0;
         padding: 0;
-        background: #d28ae4 !important;
+        background: rgb(126, 23, 126);
         font-family: Georgia, sans-serif;
+        letter-spacing: 1.5px;
+        }
+
+        .title {
+            color: white;
+            text-align: center;
+            margin-top: 5cm;
+            font-weight: 800;
         }
     
         .searchbar{
         margin-bottom: auto;
-        margin-top: auto;
-        height: 60px;
+        margin-top: 1cm;
+        height: 80px;
         background-color: #ffffff8e;
         border-radius: 30px;
         padding: 10px;
         }
     
         .search_input{
-        color: white;
+        color: rgb(0, 0, 0);
         border: 0;
         outline: 0;
         background: none;
         width: 0;
-        line-height: 40px;
+        line-height: 60px;
         transition: width 0.4s linear;
         }
     
@@ -38,8 +46,8 @@
         }
     
         .search_icon{
-        height: 40px;
-        width: 40px;
+        height: 60px;
+        width: 60px;
         float: right;
         display: flex;
         justify-content: center;
