@@ -1,4 +1,4 @@
-   body,html{
+   body,html {
     margin: 0;
     padding: 0;
     background: url(img/fondo3.jpg);
@@ -54,7 +54,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    color:white;
+    color:#000000ce;
 }
 
 .card {
