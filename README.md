@@ -15,7 +15,7 @@
 
 Movieteca es una aplicación Web que nace al querer satisfacer a un público que en éste caso tiene un gusto especial por el cine de terror, pero a veces olvida el nombre completo de la película. Va dirigido a usuarios que gusta del análisis de los filmes antes de elegir de qué película disfrutar. Este sitio web les permitirá buscar de manera ordenada las películas con sus respectiva información, como: ratings, runtime, genre, etc...
 
- ![Pelis](https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif)
+ ![Pelis](MovieTeca.png "Página Pelis") 
 
  ## Encuestas
 
@@ -39,4 +39,9 @@ RESULTADOS DE LA ENCUESTA: [Encuesta](https://docs.google.com/forms/d/1O9Dz2TDck
 * Habrán dos presentaciones, una a la mitad de la _hackathon_ y otra al final.
 
 ## Sketches
+
+### Baja Fidelidad
+
+![Baja Fidelidad](sketch1.jpg "Baja Fidelidad")
+![Baja Fidelidad](sketch2.jpg "Baja Fidelidad")
 

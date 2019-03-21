@@ -1,3 +1,4 @@
+const card = document.getElementById('card');
 const url = 'http://www.omdbapi.com/?apikey=6faa8fa5&t=';
 
 
@@ -46,8 +47,11 @@ const getData = (condition) => {
 
 }
 
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 document.getElementById('search-btn').addEventListener('click', () => {
     let condition = document.getElementById('search').value;
     document.getElementById('screen1').setAttribute('hidden', true);
@@ -57,7 +61,6 @@ document.getElementById('search-btn').addEventListener('click', () => {
 
             /* data.forEach(element => {
                 card.innerHTML +=
-
                     `   
                     <div class="card" style="width: 13rem;">
                     <img class="card-img-top" src="${element.Poster}" alt="poster">
@@ -66,10 +69,9 @@ document.getElementById('search-btn').addEventListener('click', () => {
                     <h5 class="card-title"></h5>
                     <p class="card-text">${element.Title}</p>
                     <a href="#" class="btn btn-secondary">Ver más</a>
-
                     </div>
-
                     `
+<<<<<<< Updated upstream
 
 <<<<<<< HEAD
                 })         */
@@ -87,3 +89,6 @@ document.getElementById('search-btn').addEventListener('click', () => {
 =======
                 })         */
 >>>>>>> 50de76359fd9da4431c78393a7c78ec36d6a3411
+=======
+                })         */
+>>>>>>> Stashed changes
