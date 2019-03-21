@@ -1,49 +1,50 @@
 const card = document.getElementById('card');
-const url = 'http://www.omdbapi.com/?apikey=6faa8fa5&t=';
+let condition = document.getElementById('search-input').value;
+// let url = 'http://www.omdbapi.com/?apikey=6faa8fa5&s=' + condition;//
 
-const getData = (condition) => {
-    fetch(url + condition)
-    .then(resp => { return resp.json(); })
-    .then(data => {
+const getData = () => {
 
-
-        card.innerHTML +=
-
-                    `   
-                    <div class="card" style="width: 13rem;">
-                    <img class="card-img-top" src="${data.Poster}" alt="poster">
-                    <div class="card-body">
-                    <p class="card-text">${data.Genre}|${data.Runtime}|${data.Released}</p>
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">${data.Title}</p>
-                    <a href="#" class="btn btn-secondary">Ver más</a>
-                    </div>
-                    `
-
-            /* data.forEach(element => {
-                card.innerHTML +=
-
-                    `   
-                    <div class="card" style="width: 13rem;">
-                    <img class="card-img-top" src="${element.Poster}" alt="poster">
-                    <div class="card-body">
-                    <p class="card-text">${element.Genre}|${element.Runtime}|${element.Released}</p>
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">${element.Title}</p>
-                    <a href="#" class="btn btn-secondary">Ver más</a>
-                    </div>
-                    `
-            })         */
-                
-            });
-        }
-
-
-        document.getElementById('search-btn').addEventListener('click', () => {
-            let condition = document.getElementById('search').value;
-            document.getElementById('screen1').setAttribute('hidden', true);
-            getData(condition)
-            
+    fetch('http://www.omdbapi.com/?apikey=6faa8fa5&s=Batman')
+        .then(resp => {
+            return resp.json();
         })
 
-//window.onload = getData(); 
+        .then(function (data) {
+            console.log(data)
+
+            document.getElementById('search-btn').addEventListener('click', () => {
+
+                card.innerHTML =
+
+                `
+                <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="${JSON.stringify(data).Poster}" alt="poster">
+                <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">${JSON.stringify(data)}</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+
+                `
+
+            })
+
+
+        })
+
+        .catch(error => error)
+
+}
+
+window.onload = getData(); 
+
+//Filtra por género
+valueFilter = Array.from(document.getElementsByClassName('span-filter'))
+valueFilter.forEach(function(element){
+  element.addEventListener('click',(event) => {
+    event.preventDefault();
+    document.getElementById('carousel').style.display="none";
+    let valueSpan = element.id;
+    getMoviesName(valueSpan);
+  });
+});
