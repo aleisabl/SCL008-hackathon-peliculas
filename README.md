@@ -11,25 +11,25 @@
 
  ***
 
- ## Preámbulo
+ ## Movieteca
 
- Con la aparición de plataformas para ver películas en la nube, como Netflix o
-Hulu, ver películas desde donde estés, comiendo lo que quieras
-(sin tener que pagar precios ridículos por pop-corn / pipoca / palomitas /
-canchita / cabritas), parando si es necesario, teniendo acceso a una cantidad
-abrumadora de películas... ha cambiado la experiencia del usuario
-y modificado el mercado de las películas a nivel global.
+Movieteca es una aplicación Web que nace al querer satisfacer a un público que en éste caso tiene un gusto especial por el cine de terror. Va dirigido a usuarios que gusta del análisis de los filmes antes de elegir de qué película disfrutar. Este sitio web les permitirá buscar de manera ordenada las películas por categoría, ver una pequeña reseña, trailer, premios, entre otros.
 
  ![Pelis](https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif)
 
- ## Resumen del proyecto
+ ## Encuestas
 
- Durante estos días crearás el producto que tú quieras alrededor del mundo
-de las películas. Puede ser un sitio que hable de las mejores películas
-latinoamericanas, uno que recomiende las películas recién estrenadas en Netflix,
-uno de pelis de terror... o... ¡lo que quieras!
+El primer día del proyecto se realizó una pequeña investigación en base a una encuesta que respondieron 18 personas (la que solicitaba ser respondida solo si eran cinéfilos) con el fin de obtener información y datos relevantes sobre lo que deberíamos dar a conocer en nuestro sitio.
 
- ## Consideraciones generales
+RESULTADOS DE LA ENCUESTA: [Encuesta](https://docs.google.com/forms/d/1O9Dz2TDckx_AJ71ZEVi1gz1XbMrgenVntsPM_q2BcVk/edit)
+1.- Tipo de búsqueda (¿cuál es el método que más te acomoda para buscar información sobre películas?):61.1% por Género, 22.2% por Título, 16.7% por Nombre.
+2.- ¿Que información es relevante para ti saber antes de ver una película?: 50% Tráiler, 27.8% ACtores, 11.1% Duración.
+3.- Tipo de películas que mas te gusta: 44.4% Terror/Triller, 22.2% Ciencia Ficción, 11.1% Aventura, 11.1% Familia, 11.1% Romance.
+
+
+ ## Gráficos de los Resultados
+
+ ![Gráfico encuesta](encuesta1.png "Grafico encuesta")
 
  * Este proyecto se debe resolver en equipos de hasta 4 personas.
 * Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
