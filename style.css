@@ -1,7 +1,7 @@
    body,html {
     margin: 0;
     padding: 0;
-    background: url(img/fondo3.jpg);
+    background: url(img/fondo5.png);
     background-position: center;
     background-size: 100vh;
     font-family: Georgia, sans-serif;
@@ -33,7 +33,9 @@
     height: 80px;
     background-color: #ffffff8e;
     border-radius: 30px;
-    padding: 10px;
+    padding: 0 10px;
+    width: 450px;
+    transition: width 0.4s linear;
 }
 
 .search_input {
@@ -41,31 +43,26 @@
     border: 0;
     outline: 0;
     background: none;
-    width: 0;
     line-height: 60px;
-    transition: width 0.4s linear;
-}
-
-.searchbar:hover > .search_input { 
-    padding: 0 10px;
     width: 450px;
     transition: width 0.4s linear;
 }
 
 .searchbar:hover > .search_icon {
-    background: #000000ce;
+    background: #000000;
     color: white;
 }
 
 .search_icon {
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
     float: right;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    color:#000000ce;
+    background: #000000a8;
+    color: white;
 }
 
 .card-title {
@@ -93,11 +90,6 @@
 }
 
 
-@media (max-width: 500px) {
-    .searchbar:hover > .search_input{
-        width: 280px ;
-    }
-}
 
 @media (max-width: 400px) {
     .element.style {
