@@ -4,12 +4,12 @@ const url = 'http://www.omdbapi.com/?apikey=6faa8fa5&t=';
 
 const getData = (condition) => {
     fetch(url + condition)
-    .then(resp => { return resp.json(); })
-    .then(data => {
+        .then(resp => { return resp.json(); })
+        .then(data => {
 
-        card.innerHTML +=
+            card.innerHTML +=
 
-        ` 
+                ` 
         <div data-toggle="modal" data-target="#exampleModal" class="card" style="width: 12rem;">
         <a href="#"><img id="poster" class="card-img-top" src=" ${data.Poster}" alt="card poster"></a>
         <h3 class="card-title"> <strong> ${data.Title}</strong></h3>
@@ -58,12 +58,12 @@ const getData = (condition) => {
 
                 })         */
         });
-    }
+}
 
 
 
-    document.getElementById('search-btn').addEventListener('click', () => {
-        let condition = document.getElementById('search').value;
-        document.getElementById('screen1').setAttribute('hidden', true);
-        getData(condition)
-    })
+document.getElementById('search-btn').addEventListener('click', () => {
+    let condition = document.getElementById('search').value;
+    document.getElementById('screen1').setAttribute('hidden', true);
+    getData(condition)
+})
