@@ -8,6 +8,11 @@
     letter-spacing: 1.5px;   
 }
 
+.btn-secondary {
+    background: transparent;
+    border-radius: 10px;
+}
+
 .title {
     color: rgb(255, 255, 255);
     font-size: 35px;
@@ -16,7 +21,13 @@
     font-weight: 900;
 }
 
-.searchbar{
+.title0 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.searchbar {
     margin-bottom: auto;
     margin-top: 1cm;
     height: 80px;
@@ -25,7 +36,7 @@
     padding: 10px;
 }
 
-.search_input{
+.search_input {
     color: rgb(0, 0, 0);
     border: 0;
     outline: 0;
@@ -35,18 +46,18 @@
     transition: width 0.4s linear;
 }
 
-.searchbar:hover > .search_input{
+.searchbar:hover > .search_input { 
     padding: 0 10px;
     width: 450px;
     transition: width 0.4s linear;
 }
 
-.searchbar:hover > .search_icon{
+.searchbar:hover > .search_icon {
     background: #000000ce;
     color: white;
 }
 
-.search_icon{
+.search_icon {
     height: 60px;
     width: 60px;
     float: right;
@@ -57,8 +68,28 @@
     color:#000000ce;
 }
 
+.card-title {
+    float: center;
+    margin-top: 0.1cm;
+}
+
 .card {
-    background: rgba(255, 255, 255, 0.342);
+    color:white;
+    border-color: aliceblue;
+    border-width: 2px;
+    border-radius: 10px;
+    background:rgba(41, 39, 39, 0.623)  ;
+    height: 11cm;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.card:hover {
+    background-color:  rgba(44, 43, 43, 0.267);
+}
+
+.modal-content {
+    background-color: rgba(37, 36, 36, 0.548);
+    color:whitesmoke;
 }
 
 
