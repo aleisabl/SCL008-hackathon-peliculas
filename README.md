@@ -23,14 +23,10 @@ RESULTADOS DE LA ENCUESTA: [Encuesta](https://docs.google.com/forms/d/1O9Dz2TDck
  ![Gráfico encuesta](encuesta3.png "Grafico encuesta")
 
 
-## Sketches
-
-![Baja Fidelidad](sketch1.jpg "Baja Fidelidad")
-![Baja Fidelidad](sketch2.jpg "Baja Fidelidad")
-
 ### Testeos de usabilidad
 
-![prototipo de baja fidelidad](baja-fidelidad-01.jpg)
+![prototipo de baja fidelidad](sketch1.jpg)
+![prototipo de baja fidelidad](sketch2.jpg)
  
 Lamentablemente no se pudieron grabar los testeos realizados en esta etapa a diferentes personas, pero se recibió feedback importante como : 
  
