@@ -25,9 +25,33 @@ RESULTADOS DE LA ENCUESTA: [Encuesta](https://docs.google.com/forms/d/1O9Dz2TDck
 
 ## Sketches
 
-### Testeos de usabilidad
-
 ![Baja Fidelidad](sketch1.jpg "Baja Fidelidad")
 ![Baja Fidelidad](sketch2.jpg "Baja Fidelidad")
+
+### Testeos de usabilidad
+
+![prototipo de baja fidelidad](baja-fidelidad-01.jpg)
+ 
+Lamentablemente no se pudieron grabar los testeos realizados en esta etapa a diferentes personas, pero se recibió feedback importante como : 
+ 
+ * Agregar algún tipo de logo que identifique a la app.
+
+ * En vez de mostrar solo una película y toda la información de una vez, mostrar solo los poster con pequeña información y al hacer clic que se muestre más.
+
+#### Prototipo de alta fidelidad
+![pantallazo figma](pantallazo1.png)
+![pantallazo figma](pantallazo2.png)
+*Trabajando en el prototipo de alta fidelidad a través de Figma*
+
+
+
+## Planificación y tareas
+
+Nos dividimos las tareas según las habilidades de cada una, pero al mismo tiempo todas colaborando en conjunto y apoyando las ideas que teníamos.
+
+* 
+*
+*
+
 
 
