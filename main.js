@@ -12,6 +12,7 @@ document.getElementById('search-btn').addEventListener('click' , () => {
     .then (data => data.json())
     .then (data => {
         searchData = data.Search;
+        console.log(data)
         for(let i=0; i<searchData.length; i++){
             card.innerHTML +=
             ` 
