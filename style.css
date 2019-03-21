@@ -1,9 +1,9 @@
    body,html {
     margin: 0;
     padding: 0;
-    background: url(img/fondo5.png);
+    background: url(img/fondo6.jpg);
     background-position: center;
-    background-size: 100vh;
+    background-size: cover;
     font-family: Georgia, sans-serif;
     letter-spacing: 1.5px;   
 }
@@ -15,7 +15,7 @@
 
 .title {
     color: rgb(255, 255, 255);
-    font-size: 35px;
+    font-size: 36px;
     text-align: center;
     margin-top: 3cm;
     font-weight: 900;
