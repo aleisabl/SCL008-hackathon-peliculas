@@ -1,14 +1,14 @@
 # "Hackathon
 
- ## Movieteca 🎬
+ ## Movieteca (Movietech) 🎬
 
  ![Pelis](Movieteca.png "Página Pelis") 
 
-Movieteca es una aplicación Web que nace con el objetivo de satisfacer a un público que posea un gusto especial por el cine pero que ,a veces, olvida el nombre completo de la película. Está  dirigido a usuarios que gusten del análisis de los filmes antes de elegir qué película van a disfrutar. Este sitio web les permitirá buscar de manera ordenada la película deseada con su respectiva información como: ratings, runtime, genre, etc...
+Movieteca o Movietech es una aplicación Web que nace con el objetivo de satisfacer a un público que posea un gusto especial por el cine pero que, a veces, olvida el nombre completo de la película. Está  dirigido a usuarios que gusten del análisis de los filmes antes de elegir qué película van a disfrutar. Este sitio web les permitirá buscar de manera ordenada la película deseada con su respectiva información como: ratings, runtime, genre, etc...
 
  ## Encuestas
 
-El primer paso que realizamos en el proyecto fue un proceso investigación en donde ,en base a una encuesta realizada con un total de 18 respuestas, (la que solicitaba ser respondida solo si eran cinéfilos) obtivimos información y datos relevantes sobre lo que deberíamos dar a conocer en nuestro sitio.
+El primer paso que realizamos en el proyecto fue un proceso investigación en donde en base a una encuesta realizada con un total de 18 respuestas, (la que solicitaba ser respondida solo si eran cinéfilos) obtivimos información y datos relevantes sobre lo que deberíamos dar a conocer en nuestro sitio.
 
 RESULTADOS DE LA ENCUESTA: [Encuesta](https://docs.google.com/forms/d/1O9Dz2TDckx_AJ71ZEVi1gz1XbMrgenVntsPM_q2BcVk/edit)
 1.- Tipo de búsqueda (¿cuál es el método que más te acomoda para buscar información sobre películas?):61.1% por Género, 22.2% por Título, 16.7% por Nombre.
@@ -24,7 +24,7 @@ RESULTADOS DE LA ENCUESTA: [Encuesta](https://docs.google.com/forms/d/1O9Dz2TDck
 
 ## Proceso de diseño
 
-Incialmente buscamos ideas y otras webs que nos sirvieran de insparación para hallar nuestro enfoque, a partir de lo anterior creamos una paleta de colores y tipografías que estuvieran acorde a nuestra temática.
+Incialmente buscamos ideas y otras webs que nos sirvieran de inspiración para hallar nuestro enfoque, a partir de lo anterior creamos una paleta de colores y tipografías que estuvieran acorde a nuestra temática.
 
 ![prototipo de baja fidelidad](paleta.jpg)
 
@@ -63,7 +63,7 @@ Después me encargué de darle estilos con CSS y Bootstrap. Lo trabajé todo des
 
 * Vanesa Morales realizó las encuestas, tambíen trabajó en el código y ayudó en la creación del read me.
 
-* Carolina Méndez ayudó con las imagens del proyecto, y los elementos de figma y prototipado.
+* Carolina Méndez ayudó con las imágenes del proyecto, los elementos de figma y prototipado.
 
 ## Conclusión
 
