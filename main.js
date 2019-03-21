@@ -6,18 +6,17 @@ const getData = (condition) => {
     .then(resp => { return resp.json(); })
     .then(data => {
 
-
         card.innerHTML +=
 
-                    `   
+                    `   <a>
                     <div class="card" style="width: 13rem;">
                     <img class="card-img-top" src="${data.Poster}" alt="poster">
+                    <h5 class="card-title">${data.Title}</h5>
                     <div class="card-body">
                     <p class="card-text">${data.Genre}|${data.Runtime}|${data.Released}</p>
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">${data.Title}</p>
-                    <a href="#" class="btn btn-secondary">Ver más</a>
-                    </div>
+                   
+                    <p class="card-text"></p>
+                    </div> </>
                     `
 
             /* data.forEach(element => {
@@ -45,5 +44,3 @@ const getData = (condition) => {
             getData(condition)
             
         })
-
-//window.onload = getData(); 
