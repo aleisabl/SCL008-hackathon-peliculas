@@ -11,6 +11,7 @@ document.getElementById('search-btn').addEventListener('click' , () => {
 
     .then (data => data.json())
     .then (data => {
+        console.log(data);
         searchData = data.Search;
         console.log(data)
         for(let i=0; i<searchData.length; i++){
@@ -48,5 +49,11 @@ document.getElementById('search-btn').addEventListener('click' , () => {
         }
     })
 
+})
+
+document.getElementById('search-btn').addEventListener('click', () => {
+    let condition = document.getElementById('search').value;
+    document.getElementById('screen1').setAttribute('hidden', true);
+    getData(condition)
 })
 
