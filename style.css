@@ -129,5 +129,12 @@
     }
 }
 
+@media (max-width: 500px) {
+    .card {
+        width: 6rem;
+        height: 9cm;
+    }
+}
+
 
 
