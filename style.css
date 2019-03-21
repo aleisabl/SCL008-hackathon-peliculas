@@ -122,5 +122,12 @@
     }
 }
 
+@media (max-width: 500px) {
+    .about-us {
+        margin-left: 2em;
+        margin-top: 5em;
+    }
+}
+
 
 

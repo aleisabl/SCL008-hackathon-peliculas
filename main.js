@@ -1,5 +1,5 @@
 const card = document.getElementById('card');
-const url = 'http://www.omdbapi.com/?apikey=6faa8fa5&s=';
+const url = 'https://www.omdbapi.com/?apikey=6faa8fa5&s=';
 
 document.getElementById('search-btn').addEventListener('click' , () => {
     
@@ -13,7 +13,6 @@ document.getElementById('search-btn').addEventListener('click' , () => {
     .then (data => {
         console.log(data);
         searchData = data.Search;
-        console.log(data)
         for(let i=0; i<searchData.length; i++){
             card.innerHTML +=
             ` 
@@ -49,11 +48,5 @@ document.getElementById('search-btn').addEventListener('click' , () => {
         }
     })
 
-})
-
-document.getElementById('search-btn').addEventListener('click', () => {
-    let condition = document.getElementById('search').value;
-    document.getElementById('screen1').setAttribute('hidden', true);
-    getData(condition)
 })
 
