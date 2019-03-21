@@ -56,9 +56,15 @@ https://www.figma.com/file/VHgK3Nv2Q83BdqsZ2UjbjTqa/Hackathon?node-id=2%3A3
 
 Nos dividimos las tareas según las habilidades de cada una, pero al mismo tiempo todas colaborando en conjunto y apoyando las ideas que teníamos.
 
-* Alexandra Fernández trabajó de lleno en el generando el código tanto en HTML, CSS y en sus respectivas funciones. 
+
+* Alexandra: me encargué de hacer los archivos js, css y html. Investigué más sobre el fetch y gracias a la práctica del fetch en la iteración de Data Lovers logré hacerlo, luego procedí a leer la documentación de la omdbapi y cómo manipularla, con lo que llegué a utilizar el 's=' y agregarle una variable que es lo que ingresa el usuario, lo que da como resultado que la api va cambiando según lo que se ingresa.
+
+Después me encargué de darle estilos con CSS y Bootstrap. Lo trabajé todo desde el principio con responsive, utilizando containers, rows, cards, modals y Media Query.
+
 * Vanesa Morales realizó las encuestas, tambíen trabajó en el código y ayudó en la creación del read me.
+
 * Carolina Méndez ayudó con las imagens del proyecto, y los elementos de figma y prototipado.
+
 ## Conclusión
 
 Nuestro objetivo final es seguir mejorando nuestra aplicación web a travez de varias iteraciones que se irán realizando en el futuro. Algunas de ellas son:
