@@ -100,12 +100,41 @@ document.getElementById('search-btn').addEventListener('click' , () => {
 
 } */
 
-
-
-
 /* 
+>>>>>>> bc8ccf3e08d34a7a69b0697c4854b750b35ec0ac
 document.getElementById('search-btn').addEventListener('click', () => {
     let condition = document.getElementById('search').value;
     document.getElementById('screen1').setAttribute('hidden', true);
     getData(condition)
-}) */
+<<<<<<< HEAD
+})
+
+
+            /* data.forEach(element => {
+                card.innerHTML +=
+                    `   
+                    <div class="card" style="width: 13rem;">
+                    <img class="card-img-top" src="${element.Poster}" alt="poster">
+                    <div class="card-body">
+                    <p class="card-text">${element.Genre}|${element.Runtime}|${element.Released}</p>
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">${element.Title}</p>
+                    <a href="#" class="btn btn-secondary">Ver más</a>
+                    </div>
+                    `
+<<<<<<< Updated upstream
+
+<<<<<<< HEAD
+                })         */
+        });
+}
+
+
+
+document.getElementById('search-btn').addEventListener('click', () => {
+    let condition = document.getElementById('search').value;
+    document.getElementById('screen1').setAttribute('hidden', true);
+    getData(condition)
+})
+
+
