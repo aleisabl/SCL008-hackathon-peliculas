@@ -2,7 +2,7 @@
 
  ## Movieteca 🎬
 
- ![Pelis](MovieTeca.png "Página Pelis") 
+ ![Pelis](Movieteca.png "Página Pelis") 
 
 Movieteca es una aplicación Web que nace con el objetivo de satisfacer a un público que posea un gusto especial por el cine pero que ,a veces, olvida el nombre completo de la película. Está  dirigido a usuarios que gusten del análisis de los filmes antes de elegir qué película van a disfrutar. Este sitio web les permitirá buscar de manera ordenada la película deseada con su respectiva información como: ratings, runtime, genre, etc...
 
