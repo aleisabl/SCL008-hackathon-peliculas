@@ -11,6 +11,7 @@ document.getElementById('search-btn').addEventListener('click' , () => {
 
     .then (data => data.json())
     .then (data => {
+        console.log(data);
         searchData = data.Search;
         console.log(data)
         for(let i=0; i<searchData.length; i++){
@@ -32,7 +33,7 @@ document.getElementById('search-btn').addEventListener('click' , () => {
         </button>
         </div>
         <div class="modal-body">
-        <p class="movie-genre"> <strong>Genre:</strong> ${searchData[i].Genre} </p>
+        <p class="movie-genre"> <strong>Year:</strong> ${searchData[i].Year} </p>
         <p class="movie-lang"> <strong>Language:</strong> ${searchData[i].Language}</p>
         <p class="movie-riuntime"> <strong>Runtime:</strong> ${searchData[i].Runtime} </p>
         <p class="movie-awards"> <strong>Awards:</strong> ${searchData[i].Awards} ${searchData[i].Released}</p>
@@ -50,5 +51,11 @@ document.getElementById('search-btn').addEventListener('click' , () => {
         }
     })
 
+})
+
+document.getElementById('search-btn').addEventListener('click', () => {
+    let condition = document.getElementById('search').value;
+    document.getElementById('screen1').setAttribute('hidden', true);
+    getData(condition)
 })
 
