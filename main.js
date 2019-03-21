@@ -16,7 +16,7 @@ document.getElementById('search-btn').addEventListener('click' , () => {
             card.innerHTML +=
             ` 
         <div data-toggle="modal" data-target="#exampleModal${searchData[i].imdbID}" class="card" style="width: 12rem;">
-        <a href="#"><img id="poster" class="card-img-top" src=" ${searchData[i].Poster}" alt="card poster"></a>
+        <a href="#"><img id="poster" class="card-img-top" src=" ${searchData[i].Poster}" alt="card poster" onerror="this.src='img/imagenotfound.png';" ></a>
         <h3 class="card-title"> <strong> ${searchData[i].Title}</strong></h3>
         <div class="card-body">
         </div>
