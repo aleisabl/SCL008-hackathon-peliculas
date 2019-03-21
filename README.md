@@ -39,21 +39,26 @@ Lamentablemente no se pudieron grabar los testeos realizados en esta etapa a dif
 
  * En vez de mostrar solo una película y toda la información de una vez, mostrar solo los poster con pequeña información y al hacer clic que se muestre más.
 
-#### Prototipo de a fidelidad
-![pantallazo figma](pantallazo1.png)
+### Prototipo de alta fidelidad
 
-![pantallazo figma](pantallazo2.png)
+
+![pantallazo figma](pantallazo1.png)
 *Trabajando en el prototipo de alta fidelidad a través de Figma*
 
+
+![pantallazo figma](figma.jpg)
+
+Puedes testear nuestro figma aquí:
+https://www.figma.com/file/VHgK3Nv2Q83BdqsZ2UjbjTqa/Hackathon?node-id=2%3A3
 
 
 ## Planificación y tareas
 
 Nos dividimos las tareas según las habilidades de cada una, pero al mismo tiempo todas colaborando en conjunto y apoyando las ideas que teníamos.
 
-* 
-*
-*
+* Alexandra Fernández trabajó de lleno en el generando el código tanto en HTML, CSS y en sus respectivas funciones. 
+* Vanesa Morales realizó las encuestas, tambíen trabajó en el código y ayudó en la creación del read me.
+* Carolina Méndez ayudó con las imagens del proyecto, y los elementos de figma y prototipado.
 ## Conclusión
 
 Nuestro objetivo final es seguir mejorando nuestra aplicación web a travez de varias iteraciones que se irán realizando en el futuro. Algunas de ellas son:
