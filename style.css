@@ -57,14 +57,28 @@
     color:#000000ce;
 }
 
+.card-title {
+    float: center;
+    margin-top: 0.1cm;
+}
+
 .card {
-    background: rgba(255, 255, 255, 0.342);
-    height: 13cm;
+    color:white;
+    border-color: aliceblue;
+    border-width: 2px;
+    border-radius: 10px;
+    background:rgba(41, 39, 39, 0.623)  ;
+    height: 11cm;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .card:hover {
-    background-color:rgba(255, 255, 255, 0.712);
+    background-color:  rgba(44, 43, 43, 0.267);
+}
+
+.modal-content {
+    background-color: rgba(37, 36, 36, 0.548);
+    color:whitesmoke;
 }
 
 
