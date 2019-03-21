@@ -1,14 +1,14 @@
-# "Hackathon" de final de _Common Core_, películas
+# "Hackathon
 
- ## Movieteca
-
-Movieteca es una aplicación Web que nace al querer satisfacer a un público que en éste caso tiene un gusto especial por el cine de terror, pero a veces olvida el nombre completo de la película. Va dirigido a usuarios que gusta del análisis de los filmes antes de elegir de qué película disfrutar. Este sitio web les permitirá buscar de manera ordenada las películas con sus respectiva información, como: ratings, runtime, genre, etc...
+ ## Movieteca 🎬
 
  ![Pelis](Movieteca.png "Página Pelis") 
 
+Movieteca es una aplicación Web que nace con el objetivo de satisfacer a un público que posea un gusto especial por el cine pero que ,a veces, olvida el nombre completo de la película. Está  dirigido a usuarios que gusten del análisis de los filmes antes de elegir qué película van a disfrutar. Este sitio web les permitirá buscar de manera ordenada la película deseada con su respectiva información como: ratings, runtime, genre, etc...
+
  ## Encuestas
 
-El primer día del proyecto se realizó una pequeña investigación en base a una encuesta que respondieron 18 personas (la que solicitaba ser respondida solo si eran cinéfilos) con el fin de obtener información y datos relevantes sobre lo que deberíamos dar a conocer en nuestro sitio.
+El primer paso que realizamos en el proyecto fue un proceso investigación en donde ,en base a una encuesta realizada con un total de 18 respuestas, (la que solicitaba ser respondida solo si eran cinéfilos) obtivimos información y datos relevantes sobre lo que deberíamos dar a conocer en nuestro sitio.
 
 RESULTADOS DE LA ENCUESTA: [Encuesta](https://docs.google.com/forms/d/1O9Dz2TDckx_AJ71ZEVi1gz1XbMrgenVntsPM_q2BcVk/edit)
 1.- Tipo de búsqueda (¿cuál es el método que más te acomoda para buscar información sobre películas?):61.1% por Género, 22.2% por Título, 16.7% por Nombre.
@@ -22,11 +22,16 @@ RESULTADOS DE LA ENCUESTA: [Encuesta](https://docs.google.com/forms/d/1O9Dz2TDck
  ![Gráfico encuesta](encuesta2.png "Grafico encuesta")
  ![Gráfico encuesta](encuesta3.png "Grafico encuesta")
 
+## Proceso de diseño
 
-### Testeos de usabilidad
+Incialmente buscamos ideas y otras webs que nos sirvieran de insparación para hallar nuestro enfoque, a partir de lo anterior creamos una paleta de colores y tipografías que estuvieran acorde a nuestra temática.
 
-![prototipo de baja fidelidad](sketch1.jpg)
-![prototipo de baja fidelidad](sketch2.jpg)
+![prototipo de baja fidelidad](paleta.jpg)
+
+### Wireframe
+
+![prototipo de baja fidelidad](wireframe1.jpg)
+![prototipo de baja fidelidad](wireframe2.jpg)
  
 Lamentablemente no se pudieron grabar los testeos realizados en esta etapa a diferentes personas, pero se recibió feedback importante como : 
  
@@ -34,8 +39,9 @@ Lamentablemente no se pudieron grabar los testeos realizados en esta etapa a dif
 
  * En vez de mostrar solo una película y toda la información de una vez, mostrar solo los poster con pequeña información y al hacer clic que se muestre más.
 
-#### Prototipo de alta fidelidad
+#### Prototipo de a fidelidad
 ![pantallazo figma](pantallazo1.png)
+
 ![pantallazo figma](pantallazo2.png)
 *Trabajando en el prototipo de alta fidelidad a través de Figma*
 
@@ -48,6 +54,16 @@ Nos dividimos las tareas según las habilidades de cada una, pero al mismo tiemp
 * 
 *
 *
+## Conclusión
+
+Nuestro objetivo final es seguir mejorando nuestra aplicación web a travez de varias iteraciones que se irán realizando en el futuro. Algunas de ellas son:
+
+* Agregar selectores por genero y estrenos.
+* Añadir item "sobre nosotros".
+* Ampliar búsqueda por fecha.
+* Mostrar trailers en el resultado de búsqueda.
+
+
 
 
 
