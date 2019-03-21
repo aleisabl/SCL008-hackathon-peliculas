@@ -17,7 +17,7 @@ document.getElementById('search-btn').addEventListener('click' , () => {
             card.innerHTML +=
             ` 
         <div data-toggle="modal" data-target="#exampleModal${searchData[i].imdbID}" class="card" style="width: 12rem;">
-        <a href="#"><img id="poster" class="card-img-top" src=" ${searchData[i].Poster}" alt="card poster" onerror="this.src='img/imagenotfound.png';" ></a>
+        <a href="#"><img id="poster" class="card-img-top" src=" ${searchData[i].Poster}" alt="card poster" onerror="this.src='img/imagenotfound.jpg';" ></a>
         <h3 class="card-title"> <strong> ${searchData[i].Title}</strong></h3>
         <div class="card-body">
         </div>
@@ -32,11 +32,9 @@ document.getElementById('search-btn').addEventListener('click' , () => {
         </button>
         </div>
         <div class="modal-body">
-        <p class="movie-genre"> <strong>Genre:</strong> ${searchData[i].Genre} </p>
-        <p class="movie-lang"> <strong>Language:</strong> ${searchData[i].Language}</p>
-        <p class="movie-riuntime"> <strong>Runtime:</strong> ${searchData[i].Runtime} </p>
-        <p class="movie-awards"> <strong>Awards:</strong> ${searchData[i].Awards} ${searchData[i].Released}</p>
-        <p class="movie-released"> <strong>Release date:</strong> ${searchData[i].Released}</p>
+        <p class="movie-genre"> <strong>Year:</strong> ${searchData[i].Year} </p>
+        <p class="movie-lang"> <strong>Type:</strong> ${searchData[i].Type}</p>
+        <p class="movie-riuntime"> <strong>imdbID:</strong> ${searchData[i].imdbID} </p>
         </div>
         <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

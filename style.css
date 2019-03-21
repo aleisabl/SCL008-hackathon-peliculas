@@ -8,6 +8,10 @@
     letter-spacing: 1.5px;   
 }
 
+.logo {
+    width: 5em;
+}
+
 .btn-secondary {
     background: transparent;
     border-radius: 10px;
@@ -72,6 +76,7 @@
 }
 
 .card {
+    margin: 0.20cm;
     color:white;
     border-color: aliceblue;
     border-width: 2px;
@@ -79,6 +84,18 @@
     background:rgba(41, 39, 39, 0.623)  ;
     height: 11cm;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.about-us {
+    margin-left: 60em;
+    background-color: #00000056;
+    color:white;
+    border-radius: 20px;
+    margin-top: 6cm;
+}
+
+.row {
+    margin-left: 15px;
 }
 
 .card:hover {
