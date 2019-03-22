@@ -51,6 +51,7 @@ Lamentablemente no se pudieron grabar los testeos realizados en esta etapa a dif
 Puedes testear nuestro figma aquí:
 https://www.figma.com/file/VHgK3Nv2Q83BdqsZ2UjbjTqa/Hackathon?node-id=2%3A3
 
+[Test Loom](https://www.useloom.com/share/838dd257485e4a33ab251ea7ab33eef8)
 
 ## Planificación y tareas
 
