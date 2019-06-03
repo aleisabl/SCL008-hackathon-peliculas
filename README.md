@@ -71,6 +71,7 @@ Nuestro objetivo final es seguir mejorando nuestra aplicación web a travez de v
 * Añadir item "sobre nosotros".
 * Ampliar búsqueda por fecha.
 * Mostrar trailers en el resultado de búsqueda.
+* Añadir botón estático para ir a la página de atrás.
 
 
 
