@@ -1,5 +1,3 @@
-# "Hackathon
-
  ## [Movieteca](https://aleisabl.github.io/SCL008-hackathon-peliculas/) o [Movietech](https://aleisabl.github.io/SCL008-hackathon-peliculas/) 🎬
 
  ![Pelis](Movieteca.png "Página Pelis") 
