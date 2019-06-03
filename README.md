@@ -9,8 +9,11 @@ Movieteca o Movietech es una aplicación Web que nace con el objetivo de satisfa
 El primer paso que realizamos en el proyecto fue un proceso investigación en donde en base a una encuesta realizada con un total de 18 respuestas, (la que solicitaba ser respondida solo si eran cinéfilos) obtivimos información y datos relevantes sobre lo que deberíamos dar a conocer en nuestro sitio.
 
 RESULTADOS DE LA ENCUESTA: [Encuesta](https://docs.google.com/forms/d/1O9Dz2TDckx_AJ71ZEVi1gz1XbMrgenVntsPM_q2BcVk/edit)
+
 1.- Tipo de búsqueda (¿cuál es el método que más te acomoda para buscar información sobre películas?):61.1% por Género, 22.2% por Título, 16.7% por Nombre.
+
 2.- ¿Que información es relevante para ti saber antes de ver una película?: 50% Tráiler, 27.8% ACtores, 11.1% Duración.
+
 3.- Tipo de películas que mas te gusta: 44.4% Terror/Triller, 22.2% Ciencia Ficción, 11.1% Aventura, 11.1% Familia, 11.1% Romance.
 
 
